@@ -1,21 +1,9 @@
+
 .main{
     display: grid;
     grid-template-areas:
             "h h"
-            "m d";
-    grid-template-columns: 0.5fr;
-}
-
-.hat{
-    grid-area: h;
-}
-
-.menu{
-    grid-area: m;
-    background-color: chartreuse;
-}
-
-.display{
-    grid-area: d;
-    background-color: crimson;
+            "m d"
+            "f f";
+    grid-template-columns: 230px;
 }

@@ -3,14 +3,16 @@ import Menu from "./components/menu/Menu";
 import Display from "./components/display/Display";
 import classes from "./App.module.css";
 import React from "react";
+import Footer from "./components/footer/Footer";
 
 function App() {
 
     return (
         <div className={classes.main}>
-            <div className={classes.hat}><Hat/></div>
-            <div className={classes.menu}><Menu/></div>
-            <div className={classes.display}><Display/></div>
+            <Hat/>
+            <Menu/>
+            <Display/>
+            <Footer/>
         </div>
     );
 }

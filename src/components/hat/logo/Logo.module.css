@@ -1,0 +1,15 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    background-color: #0000d2;
+    border-radius: 90%;
+}
+
+.logo h1{
+    color: #ffffff;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
